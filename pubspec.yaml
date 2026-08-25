@@ -1,0 +1,93 @@
+name: mrwah
+version: 1.0.0+2
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  get: ^4.7.3
+  dio: ^5.7.0
+  dartz: ^0.10.1
+  get_it: ^8.0.1
+  awesome_dio_interceptor: ^1.2.0
+  internet_connection_checker: ^1.0.0+1
+  equatable: ^2.0.5
+  responsive_framework: ^1.5.1
+  redacted: ^1.0.12
+  get_storage: ^2.1.1
+  pull_to_refresh: ^2.0.0
+  flutter_screenutil: ^5.9.3
+  image_picker: ^1.2.1
+  easy_stepper: ^0.8.5+1
+  animations: ^2.0.11
+  lottie: ^3.3.1
+  flutter_spinkit: ^5.2.2
+  syncfusion_flutter_pdfviewer: ^29.1.38
+  permission_handler: ^12.0.1
+  intl: ^0.19.0
+  flutter_image_compress: ^2.4.0
+  url_launcher: ^6.3.2
+  new_version_plus: ^0.0.10
+  flutter_html: ^3.0.0
+  google_maps_flutter: ^2.13.0
+  geolocator: ^14.0.2
+  flutter_launcher_icons: ^0.14.4
+  webview_flutter: ^4.13.0
+  geocoding: ^4.0.0
+  path: ^1.9.1
+  flutter_svg: ^2.2.3
+  path_provider: ^2.1.5
+  firebase_core: ^3.8.0
+  firebase_messaging: ^15.1.3
+  flutter_local_notifications: ^18.0.1
+  local_auth: ^3.0.0
+  flutter_secure_storage: ^9.2.4
+  pinput: ^6.0.1
+  firebase_auth: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  lint: ^1.0.0
+  flutter_gen: ^5.8.0
+  flutter_gen_runner:
+  build_runner:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Light.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Black.ttf
+          weight: 900
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/main_mrwah.png"
